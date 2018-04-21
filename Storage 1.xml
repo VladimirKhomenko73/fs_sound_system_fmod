@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Sounds>
+  <OnetimeSounds>
+    <OnetimeSound>
+      <Name>Раскрутка турбины правой</Name>
+      <XmlParameterName>RIGHT_ENGINE_START</XmlParameterName>
+      <XmlParameterValue>0</XmlParameterValue>
+      <SoundFileLocation>C:\Projects\AirSim\AirSimNoise\Sounds\Стартер до 12с до  3960 турбины.wav</SoundFileLocation>
+      <MaxDuration>12</MaxDuration>
+      <BlockRepeat>true</BlockRepeat>
+      <SpecifiedVolume>20</SpecifiedVolume>
+      <SpecifiedFrequency>100</SpecifiedFrequency>
+    </OnetimeSound>
+    <OnetimeSound>
+      <Name>Раскрутка турбины левой</Name>
+      <XmlParameterName>LEFT_ENGINE_START</XmlParameterName>
+      <XmlParameterValue>0</XmlParameterValue>
+      <SoundFileLocation>C:\Projects\AirSim\AirSimNoise\Sounds\Стартер до 12с до  3960 турбины.wav</SoundFileLocation>
+      <MaxDuration>12</MaxDuration>
+      <BlockRepeat>false</BlockRepeat>
+      <SpecifiedVolume>20</SpecifiedVolume>
+      <SpecifiedFrequency>100</SpecifiedFrequency>
+    </OnetimeSound>
+    <OnetimeSound>
+      <Name>Удар колеса</Name>
+      <XmlParameterName>RUNWAY_TOUCH</XmlParameterName>
+      <XmlParameterValue>0</XmlParameterValue>
+      <SoundFileLocation>C:\Projects\AirSim\AirSimNoise\Sounds\Screech.wav</SoundFileLocation>
+      <MaxDuration>2</MaxDuration>
+      <BlockRepeat>true</BlockRepeat>
+      <SpecifiedVolume>50</SpecifiedVolume>
+      <SpecifiedFrequency>100</SpecifiedFrequency>
+    </OnetimeSound>
+    <OnetimeSound>
+      <Name>Визг колеса</Name>
+      <XmlParameterName>RUNWAY_TOUCH</XmlParameterName>
+      <XmlParameterValue>0</XmlParameterValue>
+      <SoundFileLocation>C:\Projects\AirSim\AirSimNoise\Sounds\Screech.wav</SoundFileLocation>
+      <MaxDuration>2</MaxDuration>
+      <BlockRepeat>false</BlockRepeat>
+      <SpecifiedVolume>20</SpecifiedVolume>
+      <SpecifiedFrequency>100</SpecifiedFrequency>
+    </OnetimeSound>
+    <OnetimeSound>
+      <Name>Авария</Name>
+      <XmlParameterName>CRASH</XmlParameterName>
+      <XmlParameterValue>0</XmlParameterValue>
+      <SoundFileLocation>C:\Projects\AirSim\AirSimNoise\Sounds\Screech.wav</SoundFileLocation>
+      <MaxDuration>5</MaxDuration>
+      <BlockRepeat>true</BlockRepeat>
+      <SpecifiedVolume>50</SpecifiedVolume>
+      <SpecifiedFrequency>100</SpecifiedFrequency>
+    </OnetimeSound>
+  </OnetimeSounds>
+  <RepeatedSounds>
+    <RepeatedSound>
+      <Name>Винт правый</Name>
+      <NameOfXmlParameterForVolume>RIGHT_SCREW_VOL</NameOfXmlParameterForVolume>
+      <NameOfXmlParameterForFrequency>RIGHT_SCREW_RPM</NameOfXmlParameterForFrequency>
+      <ValueOfXmlParameterForVolume>0</ValueOfXmlParameterForVolume>
+      <ValueOfXmlParameterForFrequency>0</ValueOfXmlParameterForFrequency>
+      <SoundFileLocation>C:\Projects\AirSim\AirSimNoise\Sounds\Крейсерский 1896 винта.wav</SoundFileLocation>
+      <TableOfValuesForVolume>
+        <Entry>
+          <Parameter>0</Parameter>
+          <Volume>0</Volume>
+        </Entry>
+        <Entry>
+          <Parameter>2800</Parameter>
+          <Volume>100</Volume>
+        </Entry>
+      </TableOfValuesForVolume>
+      <TableOfValuesForFrequency>
+        <Entry>
+          <Parameter>0</Parameter>
+          <Frequency>100</Frequency>
+        </Entry>
+        <Entry>
+          <Parameter>3000</Parameter>
+          <Frequency>100</Frequency>
+        </Entry>
+        <Entry>
+          <Parameter>3800</Parameter>
+          <Frequency>200</Frequency>
+        </Entry>
+      </TableOfValuesForFrequency>
+    </RepeatedSound>
+    <RepeatedSound>
+      <Name>Винт левый</Name>
+      <NameOfXmlParameterForVolume>LEFT_SCREW_VOL</NameOfXmlParameterForVolume>
+      <NameOfXmlParameterForFrequency>LEFT_SCREW_RPM</NameOfXmlParameterForFrequency>
+      <ValueOfXmlParameterForVolume>0</ValueOfXmlParameterForVolume>
+      <ValueOfXmlParameterForFrequency>0</ValueOfXmlParameterForFrequency>
+      <SoundFileLocation>C:\Projects\AirSim\AirSimNoise\Sounds\Крейсерский 1896 винта.wav</SoundFileLocation>
+      <TableOfValuesForVolume>
+        <Entry>
+          <Parameter>0</Parameter>
+          <Volume>0</Volume>
+        </Entry>
+        <Entry>
+          <Parameter>2700</Parameter>
+          <Volume>100</Volume>
+        </Entry>
+      </TableOfValuesForVolume>
+      <TableOfValuesForFrequency>
+        <Entry>
+          <Parameter>0</Parameter>
+          <Frequency>0</Frequency>
+        </Entry>
+        <Entry>
+          <Parameter>2700</Parameter>
+          <Frequency>120</Frequency>
+        </Entry>
+      </TableOfValuesForFrequency>
+    </RepeatedSound>
+    <RepeatedSound>
+      <Name>Турбина правая</Name>
+      <NameOfXmlParameterForVolume>RIGHT_JET_VOL</NameOfXmlParameterForVolume>
+      <NameOfXmlParameterForFrequency>RIGHT_JET_RPM</NameOfXmlParameterForFrequency>
+      <ValueOfXmlParameterForVolume>0</ValueOfXmlParameterForVolume>
+      <ValueOfXmlParameterForFrequency>0</ValueOfXmlParameterForFrequency>
+      <SoundFileLocation>C:\Projects\AirSim\AirSimNoise\Sounds\Турбина 5280.wav</SoundFileLocation>
+      <TableOfValuesForVolume>
+        <Entry>
+          <Parameter>0</Parameter>
+          <Volume>0</Volume>
+        </Entry>
+        <Entry>
+          <Parameter>5280</Parameter>
+          <Volume>5</Volume>
+        </Entry>
+        <Entry>
+          <Parameter>38000</Parameter>
+          <Volume>7</Volume>
+        </Entry>
+      </TableOfValuesForVolume>
+      <TableOfValuesForFrequency>
+        <Entry>
+          <Parameter>0</Parameter>
+          <Frequency>0</Frequency>
+        </Entry>
+        <Entry>
+          <Parameter>5280</Parameter>
+          <Frequency>100</Frequency>
+        </Entry>
+        <Entry>
+          <Parameter>38000</Parameter>
+          <Frequency>150</Frequency>
+        </Entry>
+      </TableOfValuesForFrequency>
+    </RepeatedSound>
+    <RepeatedSound>
+      <Name>Турбина левая</Name>
+      <NameOfXmlParameterForVolume>LEFT_JET_VOL</NameOfXmlParameterForVolume>
+      <NameOfXmlParameterForFrequency>LEFT_JET_RPM</NameOfXmlParameterForFrequency>
+      <ValueOfXmlParameterForVolume>0</ValueOfXmlParameterForVolume>
+      <ValueOfXmlParameterForFrequency>0</ValueOfXmlParameterForFrequency>
+      <SoundFileLocation>C:\Projects\AirSim\AirSimNoise\Sounds\Турбина 5280.wav</SoundFileLocation>
+      <TableOfValuesForVolume>
+        <Entry>
+          <Parameter>0</Parameter>
+          <Volume>0</Volume>
+        </Entry>
+        <Entry>
+          <Parameter>100</Parameter>
+          <Volume>100</Volume>
+        </Entry>
+      </TableOfValuesForVolume>
+      <TableOfValuesForFrequency>
+        <Entry>
+          <Parameter>0</Parameter>
+          <Frequency>0</Frequency>
+        </Entry>
+        <Entry>
+          <Parameter>100</Parameter>
+          <Frequency>100</Frequency>
+        </Entry>
+      </TableOfValuesForFrequency>
+    </RepeatedSound>
+  </RepeatedSounds>
+</Sounds>

@@ -1,0 +1,33 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Communicator.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="hostType" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Slave</Value>
+    </Setting>
+    <Setting Name="communicationMode" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Receiver</Value>
+    </Setting>
+    <Setting Name="netExchangePeriod" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">60</Value>
+    </Setting>
+    <Setting Name="remoteReceivingPort" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">1286</Value>
+    </Setting>
+    <Setting Name="remoteSendingPort" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">4051</Value>
+    </Setting>
+    <Setting Name="localIP" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">192.168.223.78</Value>
+    </Setting>
+    <Setting Name="remoteIP" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">192.168.223.69</Value>
+    </Setting>
+    <Setting Name="localReceivingPort" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">4050</Value>
+    </Setting>
+    <Setting Name="localSendingPort" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">4052</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

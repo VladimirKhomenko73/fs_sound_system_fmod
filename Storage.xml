@@ -1,0 +1,582 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<sounds>
+
+  <sound name="Турбина правая" type="Непрерывный">
+    <soundFile>C:\Projects\FSim\FSNoise\sound-system\Sounds\Турбина_5280.wav</soundFile>
+    <position>"Right"</position>
+    <valueOfXmlParameterForVolume>390</valueOfXmlParameterForVolume>
+    <valueOfXmlParameterForFrequency>390</valueOfXmlParameterForFrequency>
+
+    <volumeParameters>
+
+      <parameter name ="NGP">
+        <!-- Параметр NG[0] -->
+        <tableOfValues>
+          <entry x ="0.0" y ="0.0"/>
+          <entry x ="5280" y ="0.1"/>          
+          <entry x ="36600" y ="0.3"/>
+          <entry x ="50000" y ="0.3"/>         
+        </tableOfValues>
+      </parameter>
+ 
+    </volumeParameters>
+
+    <frequencyParameter name ="NGP">
+      <tableOfValues>
+        <entry x ="0.0" y ="0.0"/>
+        <entry x ="5280" y ="1.0"/>
+        <entry x ="38000" y ="7.0"/>
+        <entry x ="50000" y ="7.0"/>        
+      </tableOfValues>
+    </frequencyParameter>
+
+  </sound>
+
+  <sound name="Турбина левая" type="Непрерывный">
+    <soundFile>C:\Projects\FSim\FSNoise\sound-system\Sounds\Турбина_5280.wav</soundFile>
+    <position>"Left"</position>
+    <valueOfXmlParameterForVolume>390</valueOfXmlParameterForVolume>
+    <valueOfXmlParameterForFrequency>390</valueOfXmlParameterForFrequency>
+
+    <volumeParameters>
+
+      <parameter name ="NGL">
+      <!-- Параметр NG[1] -->
+        <tableOfValues>
+          <entry x ="0.0" y ="0.0"/>
+          <entry x ="5280" y ="0.1"/>
+          <entry x ="36600" y ="0.3"/>
+          <entry x ="50000" y ="0.3"/>
+        </tableOfValues>
+      </parameter>
+
+    </volumeParameters>
+
+    <frequencyParameter name ="NGL">
+      <tableOfValues>
+        <entry x ="0.0" y ="0.0"/>
+        <entry x ="5280" y ="1.0"/>
+        <entry x ="38000" y ="7.0"/>
+        <entry x ="50000" y ="9.0"/>
+      </tableOfValues>
+    </frequencyParameter>
+
+  </sound>
+  
+  <sound name="Винт правый" type="Непрерывный">
+      <soundFile>C:\Projects\FSim\FSNoise\sound-system\Sounds\Крейсерский_1896_винта.wav</soundFile>
+      <position>"Right"</position>
+      <valueOfXmlParameterForVolume>390</valueOfXmlParameterForVolume>
+      <valueOfXmlParameterForFrequency>390</valueOfXmlParameterForFrequency>
+      
+      <volumeParameters>
+        
+        <parameter name ="NVP">
+        <!-- Параметр NV[0] -->
+          <tableOfValues>
+            <entry x ="0.0" y ="0.0"/>
+            <entry x ="2700" y ="0.4"/>
+            <entry x ="3800" y ="1.0"/>
+          </tableOfValues>
+        </parameter>
+
+        <parameter name ="FIP">
+          <!-- Параметр FI[0] или-->
+          <!-- Параметр DEV[0] -->
+          <tableOfValues>
+            <entry x ="0" y ="0.5"/>
+            <entry x ="60" y ="3.0"/>
+          </tableOfValues>
+        </parameter>
+
+      </volumeParameters>
+      
+      <frequencyParameter name ="NVP">
+        <tableOfValues>
+          <entry x ="0" y ="0.0"/>
+          <entry x ="1896" y ="1.0"/>
+          <entry x ="3800" y ="2.0"/>          
+        </tableOfValues>
+      </frequencyParameter>    
+      
+    </sound>
+
+  <sound name="Винт левый" type="Непрерывный">
+    <soundFile>C:\Projects\FSim\FSNoise\sound-system\Sounds\Крейсерский_1896_винта.wav</soundFile>
+    <position>"Left"</position>
+    <valueOfXmlParameterForVolume>390</valueOfXmlParameterForVolume>
+    <valueOfXmlParameterForFrequency>390</valueOfXmlParameterForFrequency>
+
+    <volumeParameters>
+
+      <parameter name ="NVL">
+      <!-- Параметр LSO-NV[1] -->
+        <tableOfValues>
+          <entry x ="0.0" y ="0.0"/>
+          <entry x ="2700" y ="0.9"/>
+          <entry x ="3800" y ="1.0"/>
+        </tableOfValues>
+      </parameter>
+
+      <parameter name ="FIL">
+        <!-- Параметр FI[1] или-->
+        <!-- Параметр DEV[1] -->
+        <tableOfValues>
+          <entry x ="0" y ="0.5"/>
+          <entry x ="60" y ="3.0"/>
+        </tableOfValues>
+      </parameter>
+
+    </volumeParameters>
+
+    <frequencyParameter name ="NVL">
+    <!-- Параметр FI[1] -->
+      <tableOfValues>
+        <entry x ="0" y ="0.0"/>
+        <entry x ="1896" y ="1.0"/>
+        <entry x ="3800" y ="2.0"/>
+      </tableOfValues>
+    </frequencyParameter>
+
+  </sound>
+
+  <sound name="Тормоз правый" type="Непрерывный">
+    <soundFile>C:\Projects\FSim\FSNoise\sound-system\Sounds\Тормоза.wav</soundFile>
+    <position>"Right"</position>
+    <valueOfXmlParameterForVolume>390</valueOfXmlParameterForVolume>
+    <valueOfXmlParameterForFrequency>390</valueOfXmlParameterForFrequency>
+
+    <volumeParameters>
+
+      <parameter name ="PIP">
+      <!-- Параметр PI[0] -->  
+        <tableOfValues>
+          <entry x ="0.0" y ="0.0"/>
+          <entry x ="50" y ="1.0"/>
+          <entry x ="110" y ="1"/>
+        </tableOfValues>
+      </parameter>
+
+    </volumeParameters>
+
+    <frequencyParameter name ="VP">
+    <!--приборная скорост ASO-VP-->  
+      <tableOfValues>
+        <entry x ="0.0" y ="0.0"/>
+        <entry x ="1" y ="1.0"/>
+        <entry x ="240" y ="4.0"/>
+      </tableOfValues>
+    </frequencyParameter>
+
+  </sound>
+
+  <sound name="Тормоз левый" type="Непрерывный">
+    <soundFile>C:\Projects\FSim\FSNoise\sound-system\Sounds\Тормоза.wav</soundFile>
+    <position>"Left"</position>
+    <valueOfXmlParameterForVolume>390</valueOfXmlParameterForVolume>
+    <valueOfXmlParameterForFrequency>390</valueOfXmlParameterForFrequency>
+
+    <volumeParameters>
+
+      <parameter name ="PIL">
+        <!-- Параметр PI[1] -->
+        <tableOfValues>
+          <entry x ="0.0" y ="0.0"/>
+          <entry x ="50" y ="1.0"/>
+          <entry x ="100" y ="1"/>
+        </tableOfValues>
+      </parameter>
+
+    </volumeParameters>
+
+    <frequencyParameter name ="VP">
+      <!--приборная скорост ASO-VP-->
+      <tableOfValues>
+        <entry x ="0.0" y ="0.0"/>
+        <entry x ="1" y ="1.0"/>
+        <entry x ="240" y ="4.0"/>
+      </tableOfValues>
+    </frequencyParameter>
+
+  </sound>
+
+  <sound name="Поворот лопастей правых" type="Непрерывный">
+    <soundFile>C:\Projects\FSim\FSNoise\sound-system\Sounds\Поворот_лопасти.wav</soundFile>
+    <position>"Right"</position>
+    <valueOfXmlParameterForVolume>390</valueOfXmlParameterForVolume>
+    <valueOfXmlParameterForFrequency>390</valueOfXmlParameterForFrequency>
+
+    <volumeParameters>
+
+      <parameter name ="R_SCREW_TURN">
+        <tableOfValues>
+          <entry x ="0.0" y ="0.0"/>
+          <entry x ="0.5" y ="1.0"/>
+          <entry x ="5" y ="1.0"/>
+        </tableOfValues>
+      </parameter>
+
+    </volumeParameters>
+
+    <frequencyParameter name ="R_SCREW_TURN">
+      <tableOfValues>
+        <entry x ="0.0" y ="0.0"/>
+        <entry x ="0.5" y ="1.0"/>
+        <entry x ="5" y ="1.0"/>
+      </tableOfValues>
+    </frequencyParameter>
+
+  </sound>
+
+  <sound name="Поворот лопастей левых" type="Непрерывный">
+    <soundFile>C:\Projects\FSim\FSNoise\sound-system\Sounds\Поворот_лопасти.wav</soundFile>
+    <position>"Left"</position>
+    <valueOfXmlParameterForVolume>390</valueOfXmlParameterForVolume>
+    <valueOfXmlParameterForFrequency>390</valueOfXmlParameterForFrequency>
+
+    <volumeParameters>
+
+      <parameter name ="L_SCREW_TURN">
+        <tableOfValues>
+          <entry x ="0.0" y ="0.0"/>
+          <entry x ="0.5" y ="1.0"/>
+          <entry x ="5" y ="1.0"/>
+        </tableOfValues>
+      </parameter>
+
+    </volumeParameters>
+
+    <frequencyParameter name ="L_SCREW_TURN">
+      <tableOfValues>
+        <entry x ="0.0" y ="0.0"/>
+        <entry x ="0.5" y ="1.0"/>
+        <entry x ="5" y ="1.0"/>
+      </tableOfValues>
+    </frequencyParameter>
+
+  </sound>
+
+  <sound name="Зажигание правое" type="Непрерывный">
+    <soundFile>C:\Projects\FSim\FSNoise\sound-system\Sounds\Зажигание.wav</soundFile>
+    <position>"Right"</position>
+    <valueOfXmlParameterForVolume>390</valueOfXmlParameterForVolume>
+    <valueOfXmlParameterForFrequency>390</valueOfXmlParameterForFrequency>
+
+    <volumeParameters>
+
+      <parameter name ="TLZP">
+      <!-- LSO-fTLZ[0]-->
+        <tableOfValues>
+          <entry x ="0.0" y ="0.0"/>
+          <entry x ="0.2" y ="0.2"/>
+          <entry x ="5" y ="0.3"/>
+        </tableOfValues>
+      </parameter>
+
+    </volumeParameters>
+
+    <frequencyParameter name ="TLZP">
+      <tableOfValues>
+        <entry x ="0.0" y ="0.0"/>
+        <entry x ="0.5" y ="1.0"/>
+        <entry x ="5" y ="1.0"/>
+      </tableOfValues>
+    </frequencyParameter>
+
+  </sound>
+
+  <sound name="Зажигание левое" type="Непрерывный">
+    <soundFile>C:\Projects\FSim\FSNoise\sound-system\Sounds\Зажигание.wav</soundFile>
+    <position>"Left"</position>
+    <valueOfXmlParameterForVolume>390</valueOfXmlParameterForVolume>
+    <valueOfXmlParameterForFrequency>390</valueOfXmlParameterForFrequency>
+
+    <volumeParameters>
+
+      <parameter name ="TLZL">
+      <!-- LSO-fTLZ[1]-->
+        <tableOfValues>
+          <entry x ="0.0" y ="0.0"/>
+          <entry x ="0.2" y ="0.2"/>
+          <entry x ="5" y ="0.3"/>
+        </tableOfValues>
+      </parameter>
+
+    </volumeParameters>
+
+    <frequencyParameter name ="TLZL">
+      <tableOfValues>
+        <entry x ="0.0" y ="0.0"/>
+        <entry x ="0.5" y ="1.0"/>
+        <entry x ="5" y ="1.0"/>
+      </tableOfValues>
+    </frequencyParameter>
+
+  </sound>
+
+  <sound name="Электропреобразователь" type="Непрерывный">
+    <soundFile>C:\Projects\FSim\FSNoise\sound-system\Sounds\Преобразователь.wav</soundFile>
+    <position>"Both"</position>
+    <valueOfXmlParameterForVolume>390</valueOfXmlParameterForVolume>
+    <valueOfXmlParameterForFrequency>390</valueOfXmlParameterForFrequency>
+
+    <volumeParameters>
+
+      <parameter name ="E_CONVERTER">
+      <!--?-->
+        <tableOfValues>
+          <entry x ="0.0" y ="0.0"/>
+          <entry x ="0.5" y ="1.0"/>
+          <entry x ="5" y ="1.0"/>
+        </tableOfValues>
+      </parameter>
+
+    </volumeParameters>
+
+    <frequencyParameter name ="E_CONVERTER">
+      <tableOfValues>
+        <entry x ="0.0" y ="0.0"/>
+        <entry x ="0.5" y ="1.0"/>
+        <entry x ="5" y ="1.0"/>
+      </tableOfValues>
+    </frequencyParameter>
+
+  </sound>
+
+  <sound name="Топливные насосы правые" type="Непрерывный">
+    <soundFile>C:\Projects\FSim\FSNoise\sound-system\Sounds\Топливный_насос.wav</soundFile>
+    <position>"Right"</position>
+    <valueOfXmlParameterForVolume>390</valueOfXmlParameterForVolume>
+    <valueOfXmlParameterForFrequency>390</valueOfXmlParameterForFrequency>
+
+    <volumeParameters>
+
+      <parameter name ="R_FUEL_PUMP">
+      <!--Топливный насос 1 LSI-fPC1[]-->
+        <tableOfValues>
+          <entry x ="0.0" y ="0.0"/>
+          <entry x ="0.5" y ="1.0"/>
+          <entry x ="5" y ="1.0"/>
+        </tableOfValues>
+      </parameter>
+
+    </volumeParameters>
+
+    <frequencyParameter name ="R_FUEL_PUMP">
+      <tableOfValues>
+        <entry x ="0.0" y ="0.0"/>
+        <entry x ="0.5" y ="1.0"/>
+        <entry x ="5" y ="1.0"/>
+      </tableOfValues>
+    </frequencyParameter>
+
+  </sound>
+
+  <sound name="Топливные насосы левые" type="Непрерывный">
+    <soundFile>C:\Projects\FSim\FSNoise\sound-system\Sounds\Топливный_насос.wav</soundFile>
+    <position>"Left"</position>
+    <valueOfXmlParameterForVolume>390</valueOfXmlParameterForVolume>
+    <valueOfXmlParameterForFrequency>390</valueOfXmlParameterForFrequency>
+
+    <volumeParameters>
+
+      <parameter name ="L_FUEL_PUMP">
+      <!--Топливный насос 2 LSI-fPC2[]-->
+        <tableOfValues>
+          <entry x ="0.0" y ="0.0"/>
+          <entry x ="0.5" y ="1.0"/>
+          <entry x ="5" y ="1.0"/>
+        </tableOfValues>
+      </parameter>
+
+    </volumeParameters>
+
+    <frequencyParameter name ="L_FUEL_PUMP">
+      <tableOfValues>
+        <entry x ="0.0" y ="0.0"/>
+        <entry x ="0.5" y ="1.0"/>
+        <entry x ="5" y ="1.0"/>
+      </tableOfValues>
+    </frequencyParameter>
+
+  </sound>
+
+  <sound name="Ветер" type="Непрерывный">
+    <soundFile>C:\Projects\FSim\FSNoise\sound-system\Sounds\Ветер.wav</soundFile>
+    <position>"Both"</position>
+    <valueOfXmlParameterForVolume>390</valueOfXmlParameterForVolume>
+    <valueOfXmlParameterForFrequency>390</valueOfXmlParameterForFrequency>
+
+    <volumeParameters>
+
+      <parameter name ="VP">
+      <!--приборная скорост ASO-VP-->
+        <tableOfValues>
+          <entry x ="0.0" y ="0.0"/>
+          <entry x ="350" y ="0.5"/>
+        </tableOfValues>
+      </parameter>
+
+    </volumeParameters>
+
+    <frequencyParameter name ="VP">
+      <tableOfValues>
+        <entry x ="0.0" y ="0.0"/>
+        <entry x ="500" y ="2.0"/>
+      </tableOfValues>
+    </frequencyParameter>
+
+  </sound>
+
+  <sound name="Шум колес" type="Непрерывный">
+    <soundFile>C:\Projects\FSim\FSNoise\sound-system\Sounds\Движение.wav</soundFile>
+    <position>"Both"</position>
+    <valueOfXmlParameterForVolume>390</valueOfXmlParameterForVolume>
+    <valueOfXmlParameterForFrequency>390</valueOfXmlParameterForFrequency>
+
+    <volumeParameters>
+
+      <parameter name ="VP">
+      <!--приборная скорост ASO-VP-->
+        <tableOfValues>
+          <entry x ="0.0" y ="0.0"/>
+          <entry x ="60" y ="1.0"/>
+          <entry x ="500" y ="2.0"/>
+        </tableOfValues>
+      </parameter>
+
+      <parameter name ="HI">
+        <!--Высота-->
+        <tableOfValues>
+          <entry x ="0.0" y ="1.0"/>
+          <entry x ="1" y ="0.0"/>
+          <entry x ="10000" y ="0.0"/>
+        </tableOfValues>
+      </parameter>
+    </volumeParameters>
+
+    <frequencyParameter name ="VP">
+      <tableOfValues>
+        <entry x ="0.0" y ="0.0"/>
+        <entry x ="60" y ="1.0"/>
+        <entry x ="240" y ="4.0"/>
+      </tableOfValues>
+    </frequencyParameter>
+
+  </sound>
+
+  <sound name="Стартер правый" type="Разовый">
+    <soundFile>C:\Projects\FSim\FSNoise\sound-system\Sounds\Стартер_до_12с_до_3960_турбины.wav</soundFile>
+    <position>"Right"</position>
+    <valueOfXmlParameterForVolume>0</valueOfXmlParameterForVolume>
+    <valueOfXmlParameterForFrequency>0</valueOfXmlParameterForFrequency>
+
+    <volumeParameters>
+
+      <parameter name ="TLSP">
+      <!-- LSO-fTLS[0]--> 
+        <tableOfValues>
+          <entry x ="0.0" y ="0.0"/>
+          <entry x ="0.5" y ="0.2"/>
+          <entry x ="5.0" y ="0.2"/>
+        </tableOfValues>
+      </parameter>
+
+    </volumeParameters>
+
+    <frequencyParameter name ="TLSP">
+      <tableOfValues>
+        <entry x ="0.0" y ="0.0"/>
+        <entry x ="0.5" y ="1.0"/>
+        <entry x ="5.0" y ="1.0"/>
+      </tableOfValues>
+    </frequencyParameter>
+    
+  </sound>
+  
+  <sound name="Стартер левый" type="Разовый">
+      <soundFile>C:\Projects\FSim\FSNoise\sound-system\Sounds\Стартер_до_12с_до_3960_турбины.wav</soundFile>
+      <position>"Right"</position>
+      <valueOfXmlParameterForVolume>0</valueOfXmlParameterForVolume>
+      <valueOfXmlParameterForFrequency>0</valueOfXmlParameterForFrequency>
+
+      <volumeParameters>
+
+        <parameter name ="TLSL">
+        <!-- LSO-fTLS[1]-->
+          <tableOfValues>
+            <entry x ="0.0" y ="0.0"/>
+            <entry x ="0.5" y ="0.2"/>
+            <entry x ="5.0" y ="0.2"/>
+          </tableOfValues>
+        </parameter>
+
+      </volumeParameters>
+
+      <frequencyParameter name ="TLSL">
+        <tableOfValues>
+          <entry x ="0.0" y ="0.0"/>
+          <entry x ="0.5" y ="1.0"/>
+          <entry x ="5.0" y ="1.0"/>
+        </tableOfValues>
+      </frequencyParameter>
+  </sound>
+
+  <!--sound name="Визга колес" type="Разовый">
+    <soundFile>C:\Projects\AirSim\AirSimNoise\sound-system\Sounds\Визг.wav</soundFile>
+    <position>"Both"</position>
+    <valueOfXmlParameterForVolume>0</valueOfXmlParameterForVolume>
+    <valueOfXmlParameterForFrequency>0</valueOfXmlParameterForFrequency>
+
+    <volumeParameters>
+
+      <parameter name ="WT">
+        <Вертикальная составляющая реакции основных колес YR2>
+  <tableOfValues>
+          <entry x ="0.0" y ="0.0"/>
+          <entry x ="10" y ="0.1"/>
+          <entry x ="100.0" y ="1.0"/>
+        </tableOfValues>
+      </parameter>
+
+    </volumeParameters>
+
+    <frequencyParameter name ="WT">
+      <tableOfValues>
+        <entry x ="0.0" y ="0.0"/>
+        <entry x ="10" y ="1.0"/>
+        <entry x ="100" y ="1.0"/>
+      </tableOfValues>
+    </frequencyParameter>
+  </sound-->
+
+  <sound name="Удар шасси" type="Разовый">
+    <soundFile>C:\Projects\FSim\FSNoise\sound-system\Sounds\Удар_шасси.wav</soundFile>
+    <position>"Both"</position>
+    <valueOfXmlParameterForVolume>0</valueOfXmlParameterForVolume>
+    <valueOfXmlParameterForFrequency>0</valueOfXmlParameterForFrequency>
+
+    <volumeParameters>
+
+      <parameter name ="WT">
+        <!--Вертикальная составляющая реакции основных колес YR2-->
+        <tableOfValues>
+          <entry x ="0.0" y ="0.0"/>
+          <entry x ="10" y ="0.1"/>
+          <entry x ="100.0" y ="1.0"/>
+        </tableOfValues>
+      </parameter>
+
+    </volumeParameters>
+
+    <frequencyParameter name ="WT">
+      <tableOfValues>
+        <entry x ="0.0" y ="0.0"/>
+        <entry x ="1" y ="1.0"/>
+        <entry x ="110" y ="1.0"/>
+      </tableOfValues>
+    </frequencyParameter>
+  </sound>
+
+
+</sounds>
